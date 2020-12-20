@@ -1,0 +1,1 @@
+driver for hp 15-bs0xx of windows 10 64bit
