@@ -1,0 +1,27 @@
+[05-Feb-2018 23:43:46 Europe/Rome] PHP Warning:  scandir(../source/): failed to open dir: No such file or directory in /home/ekimina/public_html/construction/admin/filemanager/dialog.php on line 626
+[05-Feb-2018 23:43:46 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ekimina/public_html/construction/admin/filemanager/dialog.php on line 626
+[05-Feb-2018 23:43:46 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/ekimina/public_html/construction/admin/filemanager/dialog.php on line 638
+[05-Feb-2018 23:43:46 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home/ekimina/public_html/construction/admin/filemanager/dialog.php on line 1182
+[16-Apr-2018 09:06:40 Europe/Rome] PHP Warning:  scandir(news_images/): failed to open dir: No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:06:40 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:06:40 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 638
+[16-Apr-2018 09:06:40 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 1182
+[16-Apr-2018 09:06:59 Europe/Rome] no decode delegate for this image format `/tmp/phpo2hvES' @ error/constitute.c/ReadImage/532
+[16-Apr-2018 09:09:50 Europe/Rome] PHP Warning:  scandir(/http://eritepharmacy.com/news_images/): failed to open dir: No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:09:50 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:09:50 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 638
+[16-Apr-2018 09:09:50 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 1182
+[16-Apr-2018 09:10:07 Europe/Rome] PHP Warning:  chmod(): No such file or directory in /home2/eritepha/public_html/filemanager/UploadHandler.php on line 1407
+[16-Apr-2018 09:10:09 Europe/Rome] PHP Warning:  scandir(/http://eritepharmacy.com/news_images/): failed to open dir: No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:10:09 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:10:09 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 638
+[16-Apr-2018 09:10:09 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 1182
+[16-Apr-2018 09:10:46 Europe/Rome] PHP Warning:  scandir(/news_images/): failed to open dir: No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:10:46 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:10:46 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 638
+[16-Apr-2018 09:10:46 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 1182
+[16-Apr-2018 09:10:59 Europe/Rome] PHP Warning:  chmod(): No such file or directory in /home2/eritepha/public_html/filemanager/UploadHandler.php on line 1407
+[16-Apr-2018 09:11:00 Europe/Rome] PHP Warning:  scandir(/news_images/): failed to open dir: No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:11:00 Europe/Rome] PHP Warning:  scandir(): (errno 2): No such file or directory in /home2/eritepha/public_html/filemanager/dialog.php on line 626
+[16-Apr-2018 09:11:00 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 638
+[16-Apr-2018 09:11:00 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /home2/eritepha/public_html/filemanager/dialog.php on line 1182

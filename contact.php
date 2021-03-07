@@ -43,6 +43,7 @@
                         <li class="nav-item"><a class="nav-link px-3" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="services.php">What we offer</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="about.php">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="blog.php">Blog</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
@@ -57,22 +58,30 @@
                 <div class="row content">
                 </div>
                 <div class="row mx-4">
-                    <div class="col-lg-10">
+                    <div class="col-lg-12">
                         <div class="contact">
-                            <span>Physical address : Charity House - KN 4 St - Ste Famille - Kigali - Rwanda  </span><br>
+                            <span>Physical address : Sainte Famille Hotels, Room B0016, KN 1 St, Kigali, Rwanda  </span><br>
                             <span>Telephone: +250 7884593 98 or +250 788303082 or + 250 788480391</span><br>
                             <span>Email: info@amilex.rw</span><br>
                             <span>Website: www.amilex.rw</span><br><br>
-                            <span>Twitter: <a href="https://twitter.com/amilexchambers" target="_blank"
-                                              style="color:#13060d;font-weight: bold;margin-left: 50px;">
-        <img src="images/twitter3.png" width="30" height="30">
-        follow us on twitter</a></span>
+                            <span>Twitter:
+                                <a href="https://twitter.com/amilexchambers" target="_blank"
+                                                style="color:#13060d;font-weight: bold;margin-left: 50px;">
+                                    <img src="images/twitter3.png" width="30" height="30">
+                                follow us on twitter
+                                </a>
+                            </span>
                         </div><br>
 
                         <!--                https://www.google.com/maps/place/Amilex+Chambers/@-1.9437203,30.0630459,15z/data=!4m5!3m4!1s0x0:0xd230f9d1ede93c71!8m2!3d-1.9437203!4d30.0630459-->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15950.090722097846!2d30.0630459!3d-1.9437203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd230f9d1ede93c71!2sAmilex%20Chambers!5e0!3m2!1sen!2srw!4v1595342471836!5m2!1sen!2srw"
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15950.090722097846!2d30.0630459!3d-1.9437203!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd230f9d1ede93c71!2sAmilex%20Chambers!5e0!3m2!1sen!2srw!4v1595342471836!5m2!1sen!2srw"
                                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
                                 aria-hidden="false" tabindex="0"></iframe>
+
+                                <br> -->
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5316048613954!2d30.059982714328683!3d-1.939938137234551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca41f221940bb%3A0xeb738b8082d7bd79!2sSainte%20Famille%20Hotel!5e0!3m2!1sen!2srw!4v1609964260010!5m2!1sen!2srw"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
                     </div>
                 </div>
@@ -82,7 +91,7 @@
         </div>
     </div>
     <br>
-    <?php include('footer.php') ?>
+    <?php include 'footer.php'?>
 </section>
 <!-- end of contact -->
 

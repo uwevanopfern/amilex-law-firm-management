@@ -43,6 +43,7 @@
                         <li class="nav-item"><a class="nav-link px-3" href="index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="services.php">What we offer</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="about.php">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link px-3" href="blog.php">Blog</a></li>
                         <li class="nav-item"><a class="nav-link px-3" href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
@@ -196,7 +197,7 @@
             </div>
         </div>
     </div>
-    <?php include('footer.php') ?>
+    <?php include 'footer.php'?>
 </section>
 
 

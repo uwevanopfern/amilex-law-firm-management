@@ -1,5 +1,5 @@
-<?php session_start(); ?>
-<?php include("include/connection.php"); ?>
+<?php session_start();?>
+<?php include "include/connection.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,14 +71,14 @@
             <ul class="nav ace-nav">
 
                 <?php
-                if (isset($_SESSION['user_id'])) {
+if (isset($_SESSION['user_id'])) {
 
-                    $user_id = $_SESSION['user_id'];
-                    $username = $_SESSION['username'];
-                    $email = $_SESSION['email'];
-                    $password = $_SESSION['password'];
-                    $permission = $_SESSION['permission'];
-                    ?>
+    $user_id = $_SESSION['user_id'];
+    $username = $_SESSION['username'];
+    $email = $_SESSION['email'];
+    $password = $_SESSION['password'];
+    $permission = $_SESSION['permission'];
+    ?>
                     <li class="purple dropdown-modal">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="background-color: #007399;">
                             <i class="ace-icon fa fa-bell icon-animated-bell"></i>
@@ -91,14 +91,14 @@
 
                                 <?php
 
-                                $select_all = "SELECT * FROM calendar";
+    $select_all = "SELECT * FROM calendar";
 
-                                $result_by_all = mysqli_query($db, $select_all);
-                                $count_all = mysqli_num_rows($result_by_all);
-                                ?>
+    $result_by_all = mysqli_query($db, $select_all);
+    $count_all = mysqli_num_rows($result_by_all);
+    ?>
                                 Total data on calendar :
                                 <span style="font-weight: bold;font-size: 18px;"><?php echo $count_all; ?>
-                                        
+
                                     </span>
                             </li>
 
@@ -107,26 +107,25 @@
 
                                     <?php
 
-                                    $today = date('Y-m-d');
-                                    $date = strtotime("+10 day");
-                                    $ten_days = date('Y-m-d', $date);
+    $today = date('Y-m-d');
+    $date = strtotime("+10 day");
+    $ten_days = date('Y-m-d', $date);
 
-                                    $select_case = "SELECT * FROM calendar WHERE its_date between '" . $today . "' AND '" . $ten_days . "' ORDER BY its_date ASC";
+    $select_case = "SELECT * FROM calendar WHERE its_date between '" . $today . "' AND '" . $ten_days . "' ORDER BY its_date ASC";
 
-                                    $result_by_case = mysqli_query($db, $select_case);
-                                    while ($row_by_case = mysqli_fetch_array($result_by_case)) {
-                                        $calendar_id = $row_by_case['id'];
-                                        $case_user_id = $row_by_case['user_id'];
-                                        $case_dossier = $row_by_case['dossier'];
-                                        $case_case_date = $row_by_case['its_date'];
+    $result_by_case = mysqli_query($db, $select_case);
+    while ($row_by_case = mysqli_fetch_array($result_by_case)) {
+        $calendar_id = $row_by_case['id'];
+        $case_user_id = $row_by_case['user_id'];
+        $case_dossier = $row_by_case['dossier'];
+        $case_case_date = $row_by_case['its_date'];
 
-                                        $select_user = "SELECT * FROM users WHERE id = '" . $case_user_id . "'";
-                                        $result_by_selected_user = mysqli_query($db, $select_user);
-                                        while ($row_by_selected_user = mysqli_fetch_array($result_by_selected_user)) {
-                                            $selected_username = $row_by_selected_user['username'];
+        $select_user = "SELECT * FROM users WHERE id = '" . $case_user_id . "'";
+        $result_by_selected_user = mysqli_query($db, $select_user);
+        while ($row_by_selected_user = mysqli_fetch_array($result_by_selected_user)) {
+            $selected_username = $row_by_selected_user['username'];
 
-
-                                            ?>
+            ?>
                                             <li>
                                                 <a href="view_case.php?dossier_id=<?php echo $calendar_id; ?>">
                                                     <i class="btn btn-xs btn-primary fa fa-user"></i>
@@ -134,7 +133,7 @@
                                                 </a>
                                             </li>
                                         <?php }
-                                    } ?>
+    }?>
                                 </ul>
                             </li>
                         </ul>
@@ -154,15 +153,14 @@
                         <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
                             <?php
 
-                            $selectSuperAdmin = "SELECT `permission` FROM users WHERE `id` = $user_id";
-                            $result = mysqli_query($db, $selectSuperAdmin);
-                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                $permission = $row['permission'];
+    $selectSuperAdmin = "SELECT `permission` FROM users WHERE `id` = $user_id";
+    $result = mysqli_query($db, $selectSuperAdmin);
+    while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+        $permission = $row['permission'];
 
+        if ($permission == 1) {
 
-                                if ($permission == 1) {
-
-                                    ?>
+            ?>
                                     <li>
                                         <a href="super_admin_page.php">
                                             <i class="ace-icon fa fa-user"></i>
@@ -170,18 +168,17 @@
                                         </a>
                                     </li>
                                 <?php }
-                            } ?>
+    }?>
                             <?php
 
-                            $selectSuperAdmin = "SELECT `permission` FROM users WHERE `id` = $user_id";
-                            $result = mysqli_query($db, $selectSuperAdmin);
-                            while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-                                $permission = $row['permission'];
+    $selectSuperAdmin = "SELECT `permission` FROM users WHERE `id` = $user_id";
+    $result = mysqli_query($db, $selectSuperAdmin);
+    while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+        $permission = $row['permission'];
 
+        if ($permission == 2 or $permission == 1) {
 
-                                if ($permission == 2 or $permission == 1) {
-
-                                    ?>
+            ?>
 
                                     <li>
                                         <a href="super_lawyer_page.php">
@@ -190,7 +187,7 @@
                                         </a>
                                     </li>
                                 <?php }
-                            } ?>
+    }?>
 
                             <li>
                                 <a href="profile.php">
@@ -210,8 +207,8 @@
                         </ul>
                     </li>
                     <?php
-                } else {
-                    ?>
+} else {
+    ?>
                     <li>
                         <a href="#">
                             <i class="ace-icon fa fa-question-circle"></i>
@@ -224,7 +221,7 @@
                             Login
                         </a>
                     </li>
-                <?php } ?>
+                <?php }?>
             </ul>
         </div>
     </div><!-- /.navbar-container -->
@@ -258,15 +255,14 @@
 
             <?php
 
-            $select_all_permission = "SELECT * FROM permission WHERE `user_id` = '" . $user_id . "'";
-            $result_all_permission = mysqli_query($db, $select_all_permission);
-            while ($row_all = mysqli_fetch_array($result_all_permission)) {
-                $permission_all = $row_all['permissions'];
+$select_all_permission = "SELECT * FROM permission WHERE `user_id` = '" . $user_id . "'";
+$result_all_permission = mysqli_query($db, $select_all_permission);
+while ($row_all = mysqli_fetch_array($result_all_permission)) {
+    $permission_all = $row_all['permissions'];
 
-                if ($permission_all == 2) {
+    if ($permission_all == 2) {
 
-
-                    ?>
+        ?>
 
                     <li class="">
                         <a href="super_lawyer_page.php">
@@ -276,7 +272,7 @@
                     </li>
 
                 <?php } elseif ($permission_all == 3) {
-                    ?>
+        ?>
 
                     <li class="">
                         <a href="my_case.php">
@@ -285,7 +281,7 @@
                         </a>
                     </li>
                 <?php } elseif ($permission_all == 5) {
-                    ?>
+        ?>
                     <li class="">
                         <a href="#" class="dropdown-toggle">
                             <i class="menu-icon fa fa-group"></i>
@@ -326,8 +322,8 @@
                         </ul>
                     </li>
                     <?php
-                } elseif ($permission_all == 4) {
-                    ?>
+} elseif ($permission_all == 4) {
+        ?>
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
@@ -360,8 +356,8 @@
                         </ul>
                     </li>
                     <?php
-                } elseif ($permission_all == 6) {
-                    ?>
+} elseif ($permission_all == 6) {
+        ?>
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
@@ -403,8 +399,8 @@
                         </ul>
                     </li>
                     <?php
-                } elseif ($permission_all == 7) {
-                    ?>
+} elseif ($permission_all == 7) {
+        ?>
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
@@ -445,8 +441,8 @@
                         </ul>
                     </li>
                     <?php
-                } elseif ($permission_all == 8) {
-                    ?>
+} elseif ($permission_all == 8) {
+        ?>
 
                     <li class="">
                         <a href="#" class="dropdown-toggle">
@@ -530,7 +526,7 @@
                     </li>
 
                 <?php } elseif ($permission_all == 9) {
-                    ?>
+        ?>
 
                     <li class="">
                         <a href="calendar.php">
@@ -540,7 +536,7 @@
                     </li>
 
                 <?php } elseif ($permission_all == 10) {
-                    ?>
+        ?>
 
                     <li class="">
                         <a href="tasks.php">
@@ -550,25 +546,14 @@
                     </li>
 
                 <?php }
-            } ?>
-            <!--
+}?>
 
-            <li class="">
-                <a href="calendar.html">
-                    <i class="menu-icon fa fa-calendar"></i>
-
-                    <span class="menu-text">
-                        Calendar
-
-                        <span class="badge badge-transparent tooltip-error" title="2 Important Events">
-                            <i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
-                        </span>
-                    </span>
+           <li class="">
+                <a href="news.php">
+                    <i class="menu-icon fa fa-newspaper-o"></i>
+                    <span class="menu-text"> News portal </span>
                 </a>
-
-                <b class="arrow"></b>
-            </li> -->
-        </ul><!-- /.nav-list -->
+            </li>
     </div>
     <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
         <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
