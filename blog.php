@@ -61,8 +61,8 @@ while ($row_by_your_news = mysqli_fetch_array($result_by_your_news)) {
                 <div>
                     <div class="d-flex justify-content-center">
                             <img style="
-                            width: 700px;
-                            height: 600px;
+                            width: 400px;
+                            height: 400px;
                             object-fit: cover;" class="blog-image" src="lfms/images/news/<?php echo $_avatar; ?>" alt="">
                     </div>
                 </div><hr>
@@ -71,7 +71,7 @@ while ($row_by_your_news = mysqli_fetch_array($result_by_your_news)) {
                             color: #337ab7;
                             width: 90%;
                             margin-left: 6% !important;
-                            " 
+                            "
                         class="mx-5 px-5 my-2">
                         <div style="font-size: 22px; color: #337ab7;" class="mx-5 px-5">
                          <?php echo $title; ?>

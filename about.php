@@ -146,6 +146,11 @@
                                                     <p class="text-black"><strong>Publications:</strong></p>
                                                     <ul>
                                                         <li>P. Habimana (2020),
+                                                        ‘The regulation of harmful tax competition in the EAC: current status,
+                                                        challenges, and ways forward’, <i>KAS African Law Study Library,</i>
+                                                        Vol. 7, Issue No. 4, pp. 601-620
+                                                        </li>
+                                                        <li>P. Habimana (2020),
                                                         ‘Tax Competition: Global but Virgin under Rwanda Law’,
                                                         <i>Recht in Afrika</i>,<br> Vol. 23, Issue No. 1, pp. 41-55.
                                                         </li>
