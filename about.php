@@ -145,6 +145,10 @@
 
                                                     <p class="text-black"><strong>Publications:</strong></p>
                                                     <ul>
+                                                        <li>
+                                                            P. Habimana (2021), ‘In Search of the Boundaries between Harmless and Harmful Tax Competition’,
+                                                            <i>Amsterdam Law Forum</i>, Vol. 13, Issue 1, pp. 37-56.
+                                                        </li>
                                                         <li>P. Habimana (2020),
                                                         ‘The regulation of harmful tax competition in the EAC: current status,
                                                         challenges, and ways forward’, <i>KAS African Law Study Library,</i>
