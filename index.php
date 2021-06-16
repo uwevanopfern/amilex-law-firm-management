@@ -1,4 +1,4 @@
-<?php include('header.php') ?>
+<?php include 'header.php'?>
 <!doctype html>
 <html lang="en">
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -14,17 +14,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="images/cyridion_slides.jpg" alt="Second slide">
-            <div class="text-center banner carousel-caption d-none d-md-block">
-            </div>
-        </div>
-        <div class="carousel-item">
             <img class="d-block w-100" src="images/israel_slides.jpg" alt="Third slide">
-            <div class="text-center banner carousel-caption d-none d-md-block">
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="images/tite_slides.jpg" alt="Third slide">
             <div class="text-center banner carousel-caption d-none d-md-block">
             </div>
         </div>
@@ -35,5 +25,5 @@
         </div>
     </div>
 </div>
-<?php include('footer.php') ?>
+<?php include 'footer.php'?>
 </html>
