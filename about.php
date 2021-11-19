@@ -69,17 +69,16 @@
                     <h1 class="text-dark display-4 font-weight-bold headings"
                         style="color: #0f0033!important;margin-left: 50px;">Our
                         team</h1>
-                    <p class="paragraph font-weight" style="color: #0f0033!important;margin-left: 50px;">Amilex chamber
-                        is specialized in
-                        all kinds of land transactions including but not limited to; mortgages, charges, purchases,
-                        sales, leases, expropriated properties, transfers and all manner of litigation attendant
-                        thereto</p>
+                    <p class="paragraph font-weight" style="color: #0f0033!important;margin-left: 50px;">
+                    Amilex chambers specializes in litigation and transactions of business law related matters
+                     with the following committed team members
+                     .</p>
                 </div>
                 <!-- team -->
                 <section class="p-sm-5 p-2 bg-white">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+                            <div class="col-lg-3 col-sm-10 mx-auto mb-3">
 
 
                                 <div class="container">
@@ -93,23 +92,27 @@
                                                     <h2 class="modal-title">Adv. HABIMANA Pie</h2>
                                                     <p class="text-muted">
                                                     <strong>
-                                                        Managing Partner, Amilex Chambers<br>
-                                                        Vice-President, East Africa Law Society<br>
+                                                        Managing Partner<br>
                                                         Lecturer, University of Rwanda - School of Law
                                                     </strong>
                                                     </p>
-                                                    <p>Adv. HABIMANA Pie is a co-founder of Amilex Chambers.
-                                                    He was called to the Bar in 2011. Currently, he is the Vice-President of the East African Law Society (since 2020),
-                                                    and doubles as a member of the Rwanda Bar Governing Council (since 2017).
-                                                    He also chairs the Young Lawyers Committee and the Bar Saving & Credit Scheme.<br><br>
-                                                        In academia, Pie Habimana is a Lecturer at University of Rwanda (since 2010).
-                                                        He teaches and heads the module of Tax Law and Public Finance Law.
-                                                        He is also a visiting Lecturer at the Institute of Legal Practice and Development (Post-graduate program)
-                                                        where he teaches Corporate law practice, Commercial transactions, and Practice management.<br><br>
-                                                        Pie Habimana regularly appears in the Supreme Court challenging the laws or submitting high level opinion as amicus curiae.
-                                                        He conducted a number of legal consultancies with high level institutions like UNESCO, UNECA, Ministry of Education (Rwanda), RGB, etc.<br><br>
-                                                        He is an experienced consultant and regularly advises businesses holders on various business legal issues.
-                                                        More of that, he is a member of the disciplinary Committee of the Institute of Certified Public Accountants of Rwanda (ICPAR).
+                                                    <p>Adv. Pie HABIMANA is the Managing Partner of Amilex Chambers.
+                                                    He was called to the Bar in 2011. Currently, he is the Vice-President of the East Africa Law Society (EALS),
+                                                    a Director on the Board of Cogebanque Plc, a Director on the Board of the Rwanda Bar Association,
+                                                     and a Director of the Ecole du Barreau du Rwanda.<br><br>
+                                                    He is also a member and on the panel of arbitrators of the Kigali International Arbitration Centre (KIAC),
+                                                    a disciplinary commissioner of the Institute of Certified Public Accountants of Rwanda (ICPAR),
+                                                    a member of the Chartered Institute of Arbitrators (CIArb), and the International Bar Association (IBA).<br><br>
+                                                    Pie Habimana holds a Master’s degree in business law (cum laude) and a Bachelor’s degree in law (cum laude)
+                                                    from the National University of Rwanda. He also holds a Postgraduate diploma in legal practice
+                                                    from the Institute of Legal Practice and Development, and is currently finalising a Ph.D in international tax law at Leiden University.<br><br>
+                                                    In academia, Pie is a Lecturer at the University of Rwanda (since 2010) where he teaches Tax law, Public finance law, and Private international law.<br><br>
+                                                    He is also a visiting lecturer at the Institute of Legal Practice and Development where he teaches Commercial transactions, Corporate law practice, and Practice management.<br><br>
+                                                    Pie is an active researcher with a good record of research papers published in reputed journals.<br>
+                                                    Pie Habimana regularly appears in Supreme Court to challenge legislations or to submit high level opinion as amicus curiae. <br><br>
+                                                    He has provided several legal consultancies to high level institutions like UNESCO, UNECA, Ministry of Education (Rwanda), RGB, etc and regularly advises businesses on various business legal issues.<br><br>
+                                                    He is also a member of the multi-institutional committee of the Supreme Court, which is responsible for Rwanda Law Reports
+
                                                     </p>
                                                     <p class="text-black"><strong>Academic qualifications:</strong></p>
                                                     <ul>
@@ -146,28 +149,26 @@
                                                     <p class="text-black"><strong>Publications:</strong></p>
                                                     <ul>
                                                         <li>
-                                                            P. Habimana (2021), ‘In Search of the Boundaries between Harmless and Harmful Tax Competition’,
-                                                            <i>Amsterdam Law Forum</i>, Vol. 13, Issue 1, pp. 37-56.
+                                                            P Habimana, ‘In Search of the Boundaries between Harmless and Harmful Tax Competition’
+                                                             (2021) <i>Amsterdam Law Forum</i> 13(1), pp. 37-56
                                                         </li>
-                                                        <li>P. Habimana (2020),
-                                                        ‘The regulation of harmful tax competition in the EAC: current status,
-                                                        challenges, and ways forward’, <i>KAS African Law Study Library,</i>
-                                                        Vol. 7, Issue No. 4, pp. 601-620
+                                                        <li>
+                                                            P Habimana, ‘The regulation of harmful tax competition in the EAC: current status, challenges,
+                                                            and ways forward’ (2020) <i>KAS African Law Study Library 7(4)</i>, pp. 601-620</li>
+                                                        <li>
+                                                            P Habimana, ‘Tax Competition: Global but Virgin under Rwanda Law’ (2020)<br> <i>Recht in Afrika</i> 23(1),
+                                                            pp. 41-55
                                                         </li>
-                                                        <li>P. Habimana (2020),
-                                                        ‘Tax Competition: Global but Virgin under Rwanda Law’,
-                                                        <i>Recht in Afrika</i>,<br> Vol. 23, Issue No. 1, pp. 41-55.
+                                                        <li>
+                                                            P Habimana, ‘When the tax administration feels the burn of aggressive tax planning
+                                                            but cannot catch up to its fire’ (2020) <i>Rwanda Law Journal (1)</i>, pp. 73-93.
                                                         </li>
-                                                        <li>P. Habimana (2020),
-                                                        ‘When the tax administration feels the burn of aggressive tax planning <br>
-                                                        but cannot catch up to its fire’,<i>Rwanda Law Journal</i>, Issue No. 1, pp. 73-93.
+                                                        <li>
+                                                            P Habimana, Tax Law and Public Finance in Rwanda (<i>L’Harmattan 2015</i>).
                                                         </li>
-                                                        <li>P. Habimana (2015),
-                                                        Tax Law and Public Finance in Rwanda, <i>L’Harmattan</i>, (ISBN 978-2-343-06843-5).
-                                                        </li>
-                                                        <li>P. Habimana (2013), ‘EAC (East African Community)
-                                                        Legal Base and Legal Possibilities to Influence the Settlement of Regional Disputes’,
-                                                        <i>KAS African Law Study Library</i>, Vol. 18, pp. 53-72.
+                                                        <li>
+                                                            P Habimana, ‘EAC (East African Community) Legal Base and Legal Possibilities to Influence the Settlement of Regional Disputes’
+                                                            (2013) <i>KAS African Law Study Library (18)</i>, pp. 53-72
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -197,7 +198,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+                            <div class="col-lg-3 col-sm-10 mx-auto mb-3">
                                 <div class="card" style="border: none;">
                                     <div class="modal fade" id="myModal3" role="dialog">
                                         <div class="modal-dialog modal-lg">
@@ -282,7 +283,71 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+                            <div class="col-lg-3 col-sm-10 mx-auto mb-3">
+                                <div class="card" style="border: none;">
+                                    <div class="modal fade" id="myModal4" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <h2 class="modal-title">Ms Umutoni Charlotte </h2>
+                                                    <p class="text-muted"><strong>Legal Officer</strong></p>
+                                                    <p>Ms Umutoni Charlotte joined Amilex Chambers in 2021.<br>
+                                                       She is a passionate lawyer with an eye for analytical details.<br><br>
+                                                       She has an experience working with business entities in construction industry and agri-business industry.<br><br>
+                                                       Ms Umutoni holds a Master’s degree in International Economics and Business Law and a Bachelor’s degree in Law from Kigali Independent University,
+                                                        and she is currently pursuing a Post-graduate diploma in legal practice at the Institute of Legal Practice and Development.<br><br>
+
+                                                        At Amilex Chambers, Umutoni Charlotte works in hands with the Partners and assists in drafting and reviewing legal documents,
+                                                         preparation of litigation cases, legal research, etc.<br><br>
+                                                       Ms Umutoni is a native speaker of Kinyarwanda, and she is fluent in English, French and a little Afrikaans.
+
+
+                                                    </p>
+                                                    <p class="text-black"><strong>Academic qualifications:</strong></p>
+                                                    <ul>
+                                                        <li>LLM International Economics and Business Law (Kigali Independent University – 2019)</li>
+                                                        <li>LLB Law (Kigali Independent University – 2016)</li>
+                                                        <li>PGD Legal Practice (ILPD – ongoing)</li>
+                                                    </ul>
+                                                    <p class="text-black"><strong>Languages:</strong></p>
+                                                    <ul>
+                                                        <li>English, French, Kinyarwanda, Afrikaans</li>
+                                                    </ul>
+
+                                                    <p class="text-black"><strong>Areas of expertise:</strong></p>
+                                                    <ul>
+                                                        <li>Business legal support</li>
+                                                        <li>Commercial law </li>
+                                                        <li>Company law</li>
+                                                        <li>Contract law</li>
+                                                        <li>Labour law</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                        Close
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-toggle="modal" data-target="#myModal4" class="btn card"
+                                         style="border: none;">
+                                        <img src="images/Umutoni.jpeg" class="card-img-top">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h6 class="headers text-muted" style="color: #0f0033!important;">
+                                                Ms Umutoni Charlotte
+                                                </h6>
+                                            </div>
+                                            <div class="card-subtitle">
+                                                <p class="small text-secondary">Legal Officer </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-10 mx-auto mb-3">
                                 <div class="card" style="border: none;">
                                     <div class="modal fade" id="myModal5" role="dialog">
                                         <div class="modal-dialog modal-lg">
