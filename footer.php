@@ -5,44 +5,45 @@
 
 
 <style>
-    a:hover {
-        text-decoration: none;
-    }
+a:hover {
+    text-decoration: none;
+}
 
-    .section-padding {
-        padding: 60px 0;
-    }
+.section-padding {
+    padding: 60px 0;
+}
 
-    .bottom {
-        background-color: #0a1c2e;
-    }
+.bottom {
+    background-color: #0a1c2e;
+}
 
-    .bottom .copyright {
-        color: #e5e5e5;
-        font-weight: 600;
-    }
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
 
-    .copyright a {
-        color: darkred;
-        margin-left: 3px;
-        padding-right: 3px;
-        font-weight: bold;
-    }
+.copyright a {
+    color: darkred;
+    margin-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+}
 
-    .bottom p {
-        margin-bottom: 0;
-        line-height: 50px;
-        font-size: 16px;
-        font-weight: 400;
-    }
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
 
-    .copyright p span {
-        color: #d1caca;
-    }
+.copyright p span {
+    color: #d1caca;
+}
 
-    .bottom .copyright p, .bottom .copyright a:hover {
-        color: #6c6d83;
-    }
+.bottom .copyright p,
+.bottom .copyright a:hover {
+    color: #6c6d83;
+}
 </style>
 <!--Bottom Footer-->
 <div class="bottom section-padding">
@@ -50,7 +51,8 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="copyright">
-                    <p>© <span>2017-2020</span> <a href="#" class="transition">Amilex chambers</a> All rights reserved.</p>
+                    <p>© <span>2017-2022</span> <a href="#" class="transition">Amilex chambers</a> All rights reserved.
+                    </p>
                 </div>
             </div>
         </div>

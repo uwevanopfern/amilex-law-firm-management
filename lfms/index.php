@@ -13,7 +13,7 @@ function sendAlert()
         $headers .= 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-Type: text/html; charset=ISO-8859-1' . "\r\n";
 
-    $recipients = "uweaime@gmail.com,pihabimana@gmail.com,ncyridion@gmail.com,tniyibizi@amilex.rw,irazirikana014@amilex.rw,pihabimana@amilex.rw,ncyridion@amilex.rw";
+    $recipients = "uweaime@gmail.com,pihabimana@gmail.com,uwizeyimana@amilex.rw,irazirikana014@amilex.rw,pihabimana@amilex.rw";
 
     $today = date('Y-m-d');
     $date = strtotime("+10 day");
